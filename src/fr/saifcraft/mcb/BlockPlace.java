@@ -13,8 +13,9 @@ public class BlockPlace implements Listener {
         Block block = event.getBlock();
         Player player = event.getPlayer();
         Material material = block.getType();
-        if (block.getType().equals(Material.TNT)){
-            player.sendMessage("t'as posé une tnt");
+        if (block.getState().isPlaced() && !block.getType().equals(Material.ENDER_PORTAL_FRAME) && !block.getType().equals(Material.LAVA_BUCKET)){
+            event.setCancelled(true);
+            player.setHealth(0);
         }
     }
 }

@@ -7,5 +7,6 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         System.out.println("[mcb] enabled ( by saifcraft )");
         getServer().getPluginManager().registerEvents(new BlockPlace(), this);
+        getServer().getPluginManager().registerEvents(new PlayerTuto(), this);
     }
 }
