@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MinecraftMaisQuandJePoseUnBlocJeMeurt:jar">
+    <output-path>$PROJECT_DIR$/../../frozeDev/plugins</output-path>
+    <root id="archive" name="MinecraftMaisQuandJePoseUnBlocJeMeurt.jar">
+      <element id="module-output" name="MinecraftMaisQuandJePoseUnBlocJeMeurt" />
+      <element id="extracted-dir" path="D:/utilities/bukkit.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
